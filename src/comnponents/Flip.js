@@ -2,6 +2,7 @@ import React from 'react'
 
 function Flip() {
   return (
+    <div>
     <div className='conatainer'>
     <div className='container-fluid'>
       <h1>Hotel, car &<br/> experiences</h1>
@@ -12,9 +13,11 @@ function Flip() {
     <div>
       <img src='https://chisfis-template.vercel.app/static/media/hero-right.ee78c0ffae92062cbe4e.png'/>
     </div>
-    <div>
-      <input type='serch'/>
     </div>
+    <div >
+      <input className='typen'  type='search'/><select>   </select>
+    </div>
+  
   </div>
   )
 }

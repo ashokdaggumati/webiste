@@ -1,39 +1,38 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { BsFillCaretDownFill } from "react-icons/bs";
-const Navbar=()=>(
-    
+    function Navbar(){
+return(
 
-    <nav className="navbar">
-
-        <li >
-            <Link to='/flip'><h3>Flip</h3></Link>
-        </li>
-        <ul>
-            <li className="a1">
-                <Link to='/home'> <h4>Home<select><option>Clickk online</option> </select> </h4> </Link>
-                
-                
-              
+    <nav className="navbar container-fluid">
+        <div className="d-flex">
+            <Link  className=" navh1 nav-link"  to='/flip'><h3>Flip</h3></Link>
+        <ul className="d-flex">
+            <li className="a1 ">
+                <Link className="nav-link" to='/home'> <h4>Home </h4> </Link>
             </li>
             <li className="a1">
-                <Link to='fivecolomn'><h4>Fivecolomns</h4></Link>
+                <Link className="nav-link" to='fivecolomn'><h4>Fivecolomns</h4></Link>
             </li>
             <li className="a1">
-                <Link to='listingpage'><h4>Linstingpage</h4></Link>
+                <Link className="nav-link" to='listingpage'><h4>Linstingpage</h4></Link>
             </li>
             <li className="a1">
-                <Link to='tamplets'><h4>Tamplets</h4></Link>
+                <Link className="nav-link" to='tamplets'><h4>Tamplets</h4></Link>
             </li>
             <li className="a1">
-                <Link to='otherpages'><h4>Otherpages</h4> </Link>
+                <Link className="nav-link"  to='otherpages'><h4 >Otherpages</h4></Link>
             </li>
-            <li>
-                <Link to='signin'><button className="btn">SIGNIN</button></Link>
+            <li className="a1">
+                <Link className="nav-link" to='signin'><button className="btn">SIGN Up</button></Link>
             </li>
         </ul>
+        </div>
+
+        
     </nav>
 
 
 )
+    }
 export default Navbar;

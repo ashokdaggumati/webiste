@@ -1,5 +1,6 @@
 
 import { Route, Routes } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
 import Navbar from './comnponents/Navbar';
 import Flip from './comnponents/Flip';
@@ -12,16 +13,16 @@ import Otherpages from './comnponents/Otherpages';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-   <Routes>
-    <Route path='/flip' element={<Flip/>}/>
-    <Route path='/home' element={<Home/>}/>
-    <Route path='/fivecolomns' element={<Fivecolomns/>}/>
-    <Route path='/listingpage' element={<Listingpage/>}/>
-    <Route path='/Tamplets' element={<Tamplets/>}/>
-    <Route path='/otherpages' element={<Otherpages/>}/>
-    
-   </Routes>
+      <Navbar />
+      <Routes>
+        <Route path='/flip' element={<Flip />} />
+        <Route path='/home' element={<Home />} />
+        <Route path='/fivecolomns' element={<Fivecolomns />} />
+        <Route path='/listingpage' element={<Listingpage />} />
+        <Route path='/Tamplets' element={<Tamplets />} />
+        <Route path='/otherpages' element={<Otherpages />} />
+
+      </Routes>
     </div>
   );
 }

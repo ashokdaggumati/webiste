@@ -3,7 +3,9 @@ import React from 'react'
 function Listingpage() {
   return (
   
-    <h2>jhcxfgyuojbcv</h2>
+  <div className='red'>
+    <h6>ssbhgxycghjhhbs</h6>
+  </div>
   )
 }
 
