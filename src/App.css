@@ -9,9 +9,8 @@
   position: fixed;
   color: aliceblue;
 }
-.navh1{
-  padding-left: 60px;
-  margin-top: 27px;
+h4:hover{
+  background-color: aqua;
 }
 .a1{
   margin: 30px;
@@ -27,7 +26,7 @@
 .btn{
   height: 50px;
   width: 100px;
-  margin-left: 200px;
+  margin-left: 100px;
   border-radius: 50px;
   background-color: blue;
   color: aliceblue;
@@ -43,7 +42,7 @@
     width: 180px;
     border-radius: 40px;
     background-color: blue;
-    
+    border: none;
     font-size: 20;}
 .cards-con{
 background-color: rgb(67, 66, 65);
@@ -60,10 +59,10 @@ border-radius: 40px;
   width: 100%;
 }
 .home-main-container {
-color: aliceblue;
+color: rgb(226, 236, 245);
 padding-top: 150px;
-  
-  background-color: rgb(48, 48, 50);
+
+  background-color:rgb(94, 92, 92);
 }
 .heading-li {
   list-style-type: none;
@@ -78,4 +77,63 @@ display: flex;
 }
 .img-m1{
   height: 400px;
+  
 }
+.name{
+  height: 100vh;
+  justify-content: space-between;
+  padding-top: 80px;
+  }
+.img10{
+  width: 100%;
+  height: 400px;
+  padding-top: 20px;
+}
+.img0{
+  height: 80px;
+  border-radius: 100px;
+  margin: 30px;
+
+
+}
+.holl-li{
+  padding-left: 20px;
+  list-style-type: none;
+}
+.main{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.card-pon{
+  margin-top: 30px;
+}
+
+.class{
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+  
+  
+}
+.btl{
+  height: 50px;
+  border-radius: 40px;
+  background-color: blue;
+}
+.bti{
+  font-size: 60px;
+}
+.icon-link{
+display: flex;
+margin-bottom: 20px;
+}
+ .conainer-id{
+  
+ }
+ .footer{
+  height: 70vh;
+margin-top: 200px;
+  display: flex;
+  flex-direction: row;
+justify-content: space-around;
+ }

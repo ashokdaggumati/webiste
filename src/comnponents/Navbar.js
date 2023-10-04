@@ -1,12 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { BsFillCaretDownFill } from "react-icons/bs";
+import { BsGem } from "react-icons/bs";
     function Navbar(){
 return(
 
     <nav className="navbar container-fluid">
         <div className="d-flex">
-            <Link  className=" navh1 nav-link"  to='/flip'><h3>Flip</h3></Link>
+            <div className="icon-link">
+        <BsGem className="bti"/>
+            <Link  className=" navh1 nav-link"  to='/flip'><h3>.Flip</h3></Link>
+            </div>
         <ul className="d-flex">
             <li className="a1 ">
                 <Link className="nav-link" to='/home'> <h4>Home </h4> </Link>
